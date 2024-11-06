@@ -171,7 +171,6 @@ export async function Blog() {
       <div id="posts" style="max-width: 800px; margin: auto;">
         ${posts.map(post => `
           <div>
-<div class="s12 m6 l6"> <div>
             <h2 class="large-text primary-text center-align">
               <a href="/blog/${post.slug}" data-navigate>${post.title}</a>
             </h2>
@@ -190,9 +189,6 @@ export async function Blog() {
           </div>
           <div class="large-space"></div>
         `).join('')}
-      </div>
-      <div id="loading" class="center-align" style="display: ${loading ? 'block' : 'none'}">
-        <p>Cargando posts...</p><progress class="circle small"></progress>
       </div>
       <div id="load-more" class="center-align" style="display: ${nextPageToken ? 'block' : 'none'}">
         <button class="button large secondary round">Cargar más posts</button>
