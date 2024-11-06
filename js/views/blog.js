@@ -156,20 +156,22 @@ export async function Blog() {
   // Renderiza el HTML del blog
   const blogHTML = `
     <div id="blog-view" class="responsive large-padding">
-      <h1 class="large-text primary-text center-align">Webgae Blog</h1>
-      <hr class="medium">
+      <h1 class="primary-text center-align">Webgae Blog</h1>
+      <div class="small-space"></div>
       <div id="error-message" class="card error center-align" style="display: none;">
         <p class="error-text"></p>
         <button id="retry-button" class="button primary">Intentar de nuevo</button>
       </div>
-      <div id="categories" class="center-align middle-align">
+      <div id="categories" class="secondary center-align middle-align row scroll">
         ${categories.map(category => `
           <button class="transparent" onclick="filterByCategory('${category}')">${category}</button>
         `).join('')}
       </div>
-      <div id="posts" class="large-padding" style="max-width: 800px; margin: auto;">
+<div class="large-space"></div>
+      <div id="posts" style="max-width: 800px; margin: auto;">
         ${posts.map(post => `
           <div>
+<div class="s12 m6 l6"> <div>
             <h2 class="large-text primary-text center-align">
               <a href="/blog/${post.slug}" data-navigate>${post.title}</a>
             </h2>
