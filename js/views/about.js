@@ -7,18 +7,18 @@ export function About() {
   <img alt="Webgae agencia de diseño y desarrollo web" height="262" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUK9G6AS90w8OqVXOoXNAYwqZUUakDn0OU1595AF57aDrfwUfVRgnira0nbBDEmJgSBG8bMOQADse5WoDKdqXkrPMmL3wGe5LMTTNxabbkC8j6nhGZ3fNEpZKxjv5a1hoEKUp1ZhrLiEQ/w298-h262/undraw_site_content_ihgn.png" width="298" />
   </div>
    
-  <div class="s12 m12 l6">
-   <h2>Somos desarrolladores de experiencia web que resuelven problemas y hacen crecer negocios.</h2>Creamos sitios web bonitos y modernos con las mejores herramientas y componentes, rápidos, seguros y optimizados para el SEO . <br />
+  <div class="s12 m12 l6 extra-line">
+   <h2>Somos desarrolladores de experiencia web</h2><h3> Que resuelven problemas y hacen crecer negocios.</h3><p>Creamos sitios web bonitos y modernos con las mejores herramientas y componentes, rápidos, seguros y optimizados para el SEO .</p>
   </div>
 </div>
 <div class="large-space"></div>
  <div class="large-space"></div>
 <div class="grid large-space large-padding inverse-surface full-width-content">
-  <div class="s12 m12 l6 center-align">
+  <div class="s12 m12 l6 center-align extra-line large-text">
      <div class="large-space"></div>
  <div class="large-space"></div>
-<h3 class="large center-align" title="Quienes somos">Quienes somos</h3> <b>Somos expertos en la web.</b> Un equipo de diseñadores y desarrolladores, especialistas en marketing y estrategas que identifican problemas y brindan soluciones.  <br />
-<b>Desde nuestra fundación en 1999</b>, nuestra lista de clientes ha incluido una amplia gama de empresas, desde empresas de nueva creación hasta compañías grandes.  <br />
+<h3 class="large center-align" title="Quienes somos">Quienes somos</h3> <h6>Somos expertos en la web.</h6> <p>Un equipo de diseñadores y desarrolladores, especialistas en marketing y estrategas que identifican problemas y brindan soluciones.  </p>
+<p>Desde nuestra fundación en 1999, nuestra lista de clientes ha incluido una amplia gama de empresas, desde empresas de nueva creación hasta compañías grandes.  </p>
      <div class="large-space"></div>
  <div class="large-space"></div>
   </div>
@@ -31,7 +31,7 @@ export function About() {
   </div>
 </div>
 <div class="large-space"></div>
-<div class="center-align">
+<div class="center-align large-padding">
 Creemos que nuestro trabajo y nuestros negocios repetidos son una prueba positiva de nuestro compromiso de ofrecer <b>resultados para nuestros clientes</b>.
 <b>Nuestra empresa se basa en la integridad</b>, la competencia y la innovación. Simplemente hable con cualquier miembro de nuestro equipo y rápidamente sentirá algo es diferente.  <br />
 

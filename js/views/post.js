@@ -39,10 +39,10 @@ export async function Post(params) {
     <div class="large-space"></div>
     <div id="post-view" style="max-width: 800px; margin: auto;">
       <div id="post-loader" style="display: none;">Cargando...</div>
-      <div class="responsive large-padding">
+      <div class="responsive large-padding extra-line large-text">
         ${error ? `<p class="error">${error}</p>` : ''}
         ${post ? `
-          <h1>${post.title}</h1>
+          <h1 class="small">${post.title}</h1>
           <div>${post.content}</div>
         <div class="large-space"></div>
          <a class="button responsive secondary large-elevate large" href="/blog" data-navigate onclick="event.preventDefault(); history.pushState(null, '', '/blog'); window.scrollTo({ top: 0, behavior: 'smooth' });"> ← Volver al blog</a>

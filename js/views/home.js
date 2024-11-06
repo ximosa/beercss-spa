@@ -31,7 +31,7 @@ export function Home() {
       <div class="grid"> 
     <div class="s12 m12 l6 center-align">
       
-    <img alt="Somos expertos en WordPress" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVm6Y5SOagpKasSJR38bC0yaPDc2dUqwWSlEYmIDKyI5WCPY2BKJhs3D8F7v0TfgjF_nLaOFLiSoQIrNOuSVD2rW4OssuFOkbfSWDghPLt-3b577TAIaPA8mLJlX4Dmq0zHyYAMG6ZoINUzub_rPrBTF42XD1Bxe14KQd-UOsDvQvwS25z5Hdhse-YvRo/s499/5847f59fcef1014c0b5e4898.png" title="Creamos y modificamos sitios web en WordPress y WooCommerce"/>
+    <img class="responsive" alt="Somos expertos en WordPress" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVm6Y5SOagpKasSJR38bC0yaPDc2dUqwWSlEYmIDKyI5WCPY2BKJhs3D8F7v0TfgjF_nLaOFLiSoQIrNOuSVD2rW4OssuFOkbfSWDghPLt-3b577TAIaPA8mLJlX4Dmq0zHyYAMG6ZoINUzub_rPrBTF42XD1Bxe14KQd-UOsDvQvwS25z5Hdhse-YvRo/s499/5847f59fcef1014c0b5e4898.png" title="Creamos y modificamos sitios web en WordPress y WooCommerce"/>
       
       </div>
       <div class="s12 m12 l6">

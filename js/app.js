@@ -5,6 +5,7 @@ import { Contact } from './views/contact.js';
 import { Blog } from './views/blog.js';
 import { Post } from './views/post.js';
 import { NotFound } from './views/notFound.js';
+import { Precios } from './views/precios.js';
 
 const router = new Router([
     { path: '/', component: Home },
@@ -12,5 +13,6 @@ const router = new Router([
     { path: '/contacto', component: Contact },
     { path: '/blog', component: Blog },
     { path: '/blog/:id', component: Post },
+    { path: '/precios', component: Precios },
     { path: '*', component: NotFound }
 ]);
